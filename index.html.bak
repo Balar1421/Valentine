@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Valentine Week ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Page containers -->
+  <div id="page1" class="page active">
+    <h1>💌 Will You Be My Valentine?</h1>
+    <button onclick="nextPage()">Yes ❤️</button>
+  </div>
+
+  <div id="page2" class="page">
+    <h1>🌹 Happy Rose Day!</h1>
+    <img src="assets/images/rose.jpeg" alt="Rose Day">
+    <button onclick="nextPage()">Continue</button>
+  </div>
+
+  <div id="page3" class="page"> <h1>💍 Happy Propose Day!</h1> <p>I would choose you again and again.</p>
+<img src="assets/images/Propose.jpg" alt="Propose Day">
+  <button onclick="nextPage()">Continue</button> </div> 
+  
+  <div id="page4" class="page"> <h1>🍫 Happy Chocolate Day!</h1> <p>Life with you is sweeter than chocolate.</p>
+  <img src="assets/images/chocolate.jpg" alt="Chocolate Day">
+  <button onclick="nextPage()">Continue</button> </div> 
+  
+  <div id="page5" class="page"> <h1>🧸 Happy Teddy Day!</h1> <p>May I always be your teddy to hug.</p> 
+  <img src="assets/images/teddy.jpg" alt="Teddy Day"> <button onclick="nextPage()">Continue</button>
+  </div> 
+  
+  <div id="page6" class="page"> <h1>🤝 Happy Promise Day!</h1> <p>I promise to love you forever.</p>
+<img src="assets/images/Promise.jpeg" alt="Promise Day">  <button onclick="nextPage()">Continue</button> </div> 
+  
+  <div id="page7" class="page"> <h1>🤗 Happy Hug Day!</h1> <p>My arms are your safe place.</p>
+<img src="assets/images/hug.jpg" alt="Hug Day">  <button onclick="nextPage()">Continue</button> </div> 
+
+<div id="page8" class="page"> <h1>💋 Happy Kiss Day!</h1> <p>Every kiss is a promise of love.</p>
+<img src="assets/images/Kiss.jfif" alt="Kiss Day"> <button onclick="nextPage()">Continue</button> </div>
+
+  <div id="page9" class="page">
+    <h1>💖 My Valentine Card 💖</h1>
+    <img src="assets/images/photo1.jpg" alt="Our Happy Memory">
+    <p>You make my world brighter, my days happier, and my heart fuller.</p>
+    <p>Forever promises: Love, laughter, and endless care.</p>
+    <button onclick="alert('Forever and always ❤️ You are my Valentine!')">
+      Yes, Always!
+    </button>
+
+    <!-- Background Music -->
+    <audio autoplay loop>
+      <source src="assets/music/tamil-love-bgm.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
